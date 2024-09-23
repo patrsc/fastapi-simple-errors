@@ -7,7 +7,12 @@ Simple error handling for fastapi using custom error classes.
 
 ## Introduction
 
-TODO
+This small Python package aims to simplify error handling for
+[FastAPI](https://fastapi.tiangolo.com/):
+* It allows defining custom exception classes in a simple way with little boilerplate code.
+* Your application functions can raise these errors and they will be propageted to FastAPI and
+  result in a proper 4xx or 5xx status code to be sent to the client.
+* Proper OpenAPI documentation can be generated using the correct response schema for errors. 
 
 ## Usage
 
