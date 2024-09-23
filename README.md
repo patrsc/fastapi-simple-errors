@@ -132,7 +132,7 @@ async def read_user(user_id: str):
 
 The generated OpenAPI documentation will look like this (using [Redoc](https://redocly.com/redoc)):
 
-![openapi](openapi.png)
+![openapi](https://raw.githubusercontent.com/patrsc/fastapi-simple-errors/main/openapi.png)
 
 ## Licence
 
